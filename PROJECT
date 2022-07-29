@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <style>
+        /* CSS reset */
+        body {
+            font-family: 'Baloo Bhai', cursive;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/BG2.jpg');
+            color: white;
+        }
+
+        .left {
+            position: absolute;
+            left: 34px;
+            top: 18px;
+            display: inline-block;
+            
+            line-height: 18px;
+            font-size: 24px;
+        }
+
+        .mid {
+            display: block;
+            margin: 18px auto;
+            width: 55%;
+          
+        }
+
+        .right {
+            position: fixed;
+            top: 18px;
+            right: 34px;
+           
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .left img {
+            width: 100px;
+            margin: 0px 26px;
+        }
+
+        .lift div {
+            text-align: center;
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai', cursive;
+            margin: 14px 9px;
+            color: white;
+            background-color: black;
+            border: 2px solid blueviolet;
+            padding: 4px 14px;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(134, 119, 119);
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+        }
+
+        .formgroup input {
+            text-align: center;
+            font-family: 'Baloo Bhai', cursive;
+            border: 2px solid black;
+            border-radius: 8px;
+            display: block;
+            padding: 7px;
+            margin: 8px 45px;
+            width: 411px;
+            font-size: 23px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: inline-block;
+            margin: 29px 50px;
+            width: 94px;
+            padding: 8px;
+        }
+        .right btn {
+            position: fixed;
+        }
+        a[target='_blank']{
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/gym logo.png" alt="error image loading">
+            <div>Manish Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">  Call Now</button>
+            <button class="btn"> <a href="mailto:<sonofrohila2003@gmail.com>" target="_blank">Email us</a>  </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>
+            Join the Best Gym of Jaipur Now
+        </h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="formgroup">
+                <input type="gamil" name="" placeholder="Enter your Email-id">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Phone No.">
+            </div>
+            <button class="btn">
+                Submit
+            </button>
+            <button class="btn">Reset</button>
+        </form>
+    </div>
+</body>
+
+
+
+
+</html>
